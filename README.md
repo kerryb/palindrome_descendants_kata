@@ -14,9 +14,6 @@ palindrome).
 ## Examples
 
 ```elixir
-palindrome_descendant?(11211230) # => true
-# 11211230 ➞ 2333 ➞ 56 ➞ 11
-
 palindrome_descendant?(13001120) # => true
 # 13001120 ➞ 4022 ➞ 44
 
