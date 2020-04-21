@@ -1,4 +1,4 @@
-# Palindrome Descendent
+# Palindrome Descendant
 
 A number may not be a palindrome, but its descendant can be. A number's direct
 child is created by summing each pair of adjacent digits to create the digits
@@ -31,7 +31,7 @@ palindrome_descendant(11) ➞ true
 
 Numbers will always have an even number of digits.
 
-If a descendent number has an odd number of digits, it can't be processed any
+If a descendant number has an odd number of digits, it can't be processed any
 further so false should be returned (unless the number is a palindrome)
 
 ## Example tests

@@ -1,6 +1,6 @@
-defmodule PalindromeDescendent do
+defmodule PalindromeDescendant do
   @moduledoc """
-  Documentation for `PalindromeDescendent`.
+  Documentation for `PalindromeDescendant`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule PalindromeDescendent do
 
   ## Examples
 
-      iex> PalindromeDescendent.hello()
+      iex> PalindromeDescendant.hello()
       :world
 
   """
