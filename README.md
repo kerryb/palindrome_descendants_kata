@@ -14,16 +14,16 @@ palindrome).
 ## Examples
 
 ```elixir
-palindrome_descendant(11211230) # => true
+palindrome_descendant?(11211230) # => true
 # 11211230 ➞ 2333 ➞ 56 ➞ 11
 
-palindrome_descendant(13001120) # => true
+palindrome_descendant?(13001120) # => true
 # 13001120 ➞ 4022 ➞ 44
 
-palindrome_descendant(23336014) # => true
+palindrome_descendant?(23336014) # => true
 # 23336014 ➞ 5665
 
-palindrome_descendant(11) ➞ true
+palindrome_descendant?(11) ➞ true
 # Number itself is a palindrome.
 ```
 

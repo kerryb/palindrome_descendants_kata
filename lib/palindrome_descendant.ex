@@ -1,18 +1,5 @@
 defmodule PalindromeDescendant do
-  @moduledoc """
-  Documentation for `PalindromeDescendant`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> PalindromeDescendant.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def palindrome_descendant?(_number) do
+    true
   end
 end

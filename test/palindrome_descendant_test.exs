@@ -2,7 +2,9 @@ defmodule PalindromeDescendantTest do
   use ExUnit.Case
   doctest PalindromeDescendant
 
-  test "greets the world" do
-    assert PalindromeDescendant.hello() == :world
+  import PalindromeDescendant
+
+  test "reports palindromic numbers as true" do
+    assert palindrome_descendant?(11)
   end
 end
